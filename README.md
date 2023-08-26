@@ -4,7 +4,7 @@ This project has 2 main parts which are writing python script to postgres and wr
 We’re going to need a few things before doing this project.
 - [Docker Compose](https://docs.docker.com/compose/) Simplify the process of managing multiple containers by allowing to define the configuration in a single YAML file.
 - [VScode](https://code.visualstudio.com/) To run docker and script
-- [DBeaver](https://dbeaver.io/) To access database
+- [DBeaver](https://dbeaver.io/) To access database and run query
 
 ### 1. Creating a PostgreSQL DB with Docker Compose and ETL .xlsx Data to PostgreSQL
 #### 1.1 Initialize the Postgres Service
