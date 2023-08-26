@@ -59,6 +59,8 @@ These processes are in `etl.py` and the operations in this file are as follows.
 - Creating a connection engine using SQLAlchemy
 - Defining data types and loading data to food_sales table
 
+Remark: You can see the transformed dataframe more clearly in sample_dataframe.ipynb notebook
+
 Run `etl.py` as this commmand
 ```
 python etl.py
