@@ -21,7 +21,8 @@ If we need to change any parammeter in `docker-compose.yaml`, we can stop Postgr
 ```
 $ docker-compose down
 ```
-After running PostgreSQL in the background, we have to create Database name = 'challenge'. In this case, I do on the DBeaver. (DBeaver is a SQL client software application and a database administration tool
+After running PostgreSQL in the background, we have to create Database name = 'challenge'. In this case, I do on the DBeaver.
+- [Connecting_DBeaver_PostgreSQL_via_PostgreSQL_JDBC_Driver](https://hevodata.com/learn/dbeaver-postgresql/#Connecting_DBeaver_PostgreSQL_via_PostgreSQL_JDBC_Driver)
 
 #### 1.2 Initialize the ETL Process
 These processes are in `etl.py` and the operations in this file are as follows.
