@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: challenge
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: DataEngineer_2023
+    ports:
+      - "5432:5432"
