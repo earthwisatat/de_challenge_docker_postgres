@@ -3,7 +3,7 @@ This project has 2 main parts which are writing python script to postgres and wr
 
 ### 1. Creating a PostgreSQL DB with Docker Compose and ETL .xlsx Data to PostgreSQL
 #### 1.1 Initialize the Postgres Service
-We will use Docker Compose to manage the instance of Postgres with docker-compose.yml file:
+We will use Docker Compose to manage the instance of Postgres with `docker-compose.yaml` file:
 
 These parameters are in `docker-compose.yaml`
 | Parameter | Actual for this project | Description |
